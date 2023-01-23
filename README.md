@@ -1,4 +1,4 @@
-####Static WebPage Clone of CodeTrade.io Website
+#### Static WebPage Clone of CodeTrade.io Website
 
 Technology Used:
  - HTML
