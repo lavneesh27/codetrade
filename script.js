@@ -55,7 +55,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
       var arrow = $(".arrow");
-      if (scroll >= 800) {
+      if (scroll >= 200) {
         nav.addClass("bcolor");
         arrow.fadeIn("fast");
       } else {
