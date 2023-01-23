@@ -25,14 +25,21 @@ body {
 }
 .bcolor {
   background-color: rgb(0, 75, 151);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 5px 40px rgb(0 0 0 / 7%); */
 }
 #container .items {
   margin-top: -10px;
   max-width: 800px;
   height: 100px;
+  position: relative;
+  right: 70px;
 }
 #container img {
   width: 80%;
+  left: 120px;
+  position: relative;
+  cursor: pointer;
 }
 #container ul {
   list-style-type: none;
@@ -63,6 +70,9 @@ body {
 .nav-items table tr {
   padding: -10px 0;
   margin: -10px 0;
+}
+.nav-items table th {
+  color: rgb(0, 75, 151);
 }
 
 .dropdown-content {
@@ -107,14 +117,14 @@ a:visited {
   height: 1080px;
   background: url("images/back.jpg");
   background-repeat: no-repeat;
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(68, 80, 131);
   background-blend-mode: multiply;
 }
 .arrow {
   background-color: white;
   position: fixed;
   display: none;
-  top: 520px;
+  bottom: 150px;
   right: 50px;
   height: 40px;
   width: 40px;
@@ -338,7 +348,7 @@ td {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50px;
+  width: 20px;
   margin: 0 70px;
 }
 .tech img {
@@ -427,7 +437,8 @@ td {
 .chat {
   background-color: rgb(0, 75, 151);
   position: fixed;
-  top: 600px;
+  /* top: 600px; */
+  bottom: 60px;
   right: 50px;
   height: 60px;
   width: 60px;
