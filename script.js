@@ -48,6 +48,8 @@ $(document).ready(function () {
     }
   );
 
+  //
+
   $(function () {
     var nav = $("#container");
     $(window).scroll(function () {
@@ -96,5 +98,10 @@ $(document).ready(function () {
   $("#touch5").on("mouseover", () => {
     $(".dropdown-content").hide("fast");
     $("#myDropdown5").show("fast");
+  });
+
+  $(".chat").on("click", () => {
+    $(".sub").toggle(100);
+    $("#chat").toggle(100);
   });
 });
